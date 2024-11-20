@@ -1,0 +1,5 @@
+.card-container {
+    display: flex; /* or grid */
+    flex-wrap: wrap; /* Allows wrapping of items */
+    justify-content: space-between; /* Or space-around */
+}

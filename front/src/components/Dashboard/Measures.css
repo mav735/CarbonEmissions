@@ -1,0 +1,5 @@
+/* Animation to fade out the list item */
+.fade-out {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
