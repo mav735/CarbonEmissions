@@ -42,7 +42,7 @@ export function Overall() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch("http://127.0.0.1:8000/wastes", {
+                const response = await fetch("http://45.91.193.179:8000/wastes", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",

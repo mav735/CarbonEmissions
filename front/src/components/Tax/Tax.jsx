@@ -69,7 +69,7 @@ export function Tax() {
             console.log(formattedData);
 
             // Make POST request to your FastAPI server with the formatted data
-            const response = await fetch('http://localhost:8000/submit', {
+            const response = await fetch('http://45.91.193.179:8000/submit', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

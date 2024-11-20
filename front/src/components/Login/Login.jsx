@@ -13,7 +13,7 @@ const LoginPage = () => {
         e.preventDefault();
         try {
             // Post login data to FastAPI `/token` endpoint
-            const response = await axios.post('http://localhost:8000/token', {
+            const response = await axios.post('http://45.91.193.179:8000/token', {
                 email: email,
                 password: password
             });
